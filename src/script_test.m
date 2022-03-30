@@ -1,10 +1,10 @@
 clear all;
 clc;
 
-f=imread('Picture1.png');
+f=imread('../image/apple.jpeg');
 type = "Canny";
-type = "Prewitt";
-%type = "LoG";
+% type = "Prewitt";
+% type = "LoG";
 
 figure, imshow(f); title('original image');
 f_neo = clogp_bg_remove(f, type);

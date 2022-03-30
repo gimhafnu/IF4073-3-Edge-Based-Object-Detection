@@ -7,7 +7,7 @@ L4 = laplacian4(I);
 L8 = laplacian8(I);
 
 bw = segmentation(S, "sobel");
-new = remove_bg(bw, Img);
+new = remove_bg
 % [X, Y,Z]  = size(Img);
 % r1=Img(:,:,1);
 % g1=Img(:,:,2);
@@ -22,4 +22,4 @@ new = remove_bg(bw, Img);
 %     end
 % end
 % d=cat(3,r1,g1,b1);
-imshow(new);
+imshow(bw);

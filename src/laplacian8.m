@@ -1,5 +1,4 @@
 function image = laplacian8(n)
-
 H = [1 1 1;
     1 -8 1;
     1 1 1];

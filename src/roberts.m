@@ -1,5 +1,4 @@
 function image = roberts(n)
-
 Rx = [1 0; 0 -1];
 Ry = [0 1; -1 0];
 Jx = conv2(double(n), double(Rx), 'same');
